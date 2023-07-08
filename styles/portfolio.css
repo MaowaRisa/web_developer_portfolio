@@ -80,9 +80,34 @@ nav a{
     margin-top: 5px;
 }
 /* Main Section styel */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About Section style */
 .about{
-    margin: 100px 200px;
+    margin: 100px 0;
     background-color: #FFF8F3;
-    padding: 200px 155px;
+    border-radius: 10px;
+    padding:130px;
+}
+.about-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+.about-info{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-info .info-title{
+    font-weight: normal;
+    margin: 0;
+}
+.about-info .info-description{
+    font-weight: bold;
+    margin: 0;
 }
